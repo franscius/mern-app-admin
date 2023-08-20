@@ -47,7 +47,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8000/api",
+  "proxy": "https://gold-elegant-bison.cyclic.cloud/api",
   "main": "index.js",
   "license": "ISC"
 }
