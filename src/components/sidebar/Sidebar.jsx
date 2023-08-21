@@ -54,20 +54,20 @@ const Sidebar = () => {
             <span onClick={handleClicK}>Dashboard</span>
           </li>
           <p className="title">LISTS</p>
-          <Link to="https://gold-elegant-bison.cyclic.cloud/api/users" style={{ textDecoration: "none" }}>
+          <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <PersonOutlineIcon className="icon" />
               <span>Users</span>
             </li>
           </Link>
-          <Link to="https://gold-elegant-bison.cyclic.cloud/api/hotels" style={{ textDecoration: "none" }}>
+          <Link to="/hotels" style={{ textDecoration: "none" }}>
             <li>
               <StoreIcon className="icon" />
               <span>Hotels</span>
             </li>
           </Link>
           
-          <Link to="https://gold-elegant-bison.cyclic.cloud/api/rooms" style={{ textDecoration: "none" }}>
+          <Link to="/rooms" style={{ textDecoration: "none" }}>
           <li>
             <CreditCardIcon className="icon" />
             <span>Rooms</span>
@@ -79,7 +79,7 @@ const Sidebar = () => {
             <span>Subscribers</span>
           </li>
           </Link> */}
-          <Link to="https://gold-elegant-bison.cyclic.cloud/api/confirmb" style={{ textDecoration: "none" }}>
+          <Link to="/confirmb" style={{ textDecoration: "none" }}>
           <li>
             <SwipeRightIcon className="icon" />
             <span>Bookings</span>
