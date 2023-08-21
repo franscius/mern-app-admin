@@ -32,7 +32,7 @@ function App() {
     <div className={darkMode ? "app dark" : "app"}>
       <BrowserRouter>
         <Routes>
-          <Route path="https://gold-elegant-bison.cyclic.cloud/api/">
+          <Route path="/">
             <Route path="login" element={<Login />} />
             <Route
               index
